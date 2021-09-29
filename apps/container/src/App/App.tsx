@@ -1,5 +1,6 @@
 import React from 'react';
 
+// @ts-ignore
 const RemoteHome = React.lazy(() => import('home/Home'));
 
 export const App = () => (

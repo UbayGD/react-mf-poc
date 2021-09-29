@@ -12,7 +12,7 @@ module.exports = (config, context) => {
       name: 'home',
       filename: 'remoteEntry.js',
       exposes: {
-        './Home': 'apps/home/src/home-entry.js',
+        './Home': 'apps/home/src/home-entry.tsx',
       },
       shared: {
         ...dependencies,
