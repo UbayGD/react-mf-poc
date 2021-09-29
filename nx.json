@@ -30,9 +30,8 @@
     "container": {
       "tags": []
     },
-    "container-e2e": {
-      "tags": [],
-      "implicitDependencies": ["container"]
+    "home": {
+      "tags": []
     }
   }
 }
